@@ -1,0 +1,154 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    overflow: hidden;
+  }
+
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    @include mobile {
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow: hidden;
+      padding-bottom: 15px;
+    }
+
+    li {
+      margin-left: 35px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    @include mobile {
+      width: 100%;
+      height: 90%;
+    }
+
+    .item {
+      width: 100%;
+      margin: 10px 20px;
+      display: flex;
+      height: 45%;
+      //align-items: center;
+      //justify-content: center;
+      position: relative;
+      transition: all 0.5s ease;
+
+      @include mobile {
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+      }
+
+      .left {
+        flex: 0.5;
+        //overflow: hidden;
+        border-radius: 3px;
+
+        @include mobile {
+          width: 100%;
+          height: 100%;
+          margin-right: 20px;
+          left: 0;
+          overflow: hidden;
+        }
+
+        .imgContainer {
+          width: 100%;
+          height: 100%;
+
+          @include mobile {
+            overflow: hidden;
+          }
+
+          img {
+            border: solid gray;
+            margin-left: 30px;
+            width: 80%;
+            height: 90%;
+            object-fit: cover;
+            overflow: hidden;
+
+            @include mobile {
+              object-fit: none;
+              object-position: left bottom;
+              margin: 0;
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .right {
+        flex: 0.5;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+
+        h3 {
+          position: relative;
+          font-size: 20px;
+          @include mobile {
+            font-size: 15px;
+          }
+        }
+
+        h4 {
+          color: gray;
+          float: left;
+          @include mobile {
+            font-size: 12px;
+          }
+        }
+
+        h5 {
+          position: relative;
+          margin-top: 10px;
+          @include mobile {
+            font-size: 10px;
+          }
+        }
+
+        .gitLink {
+          margin-top: 30px;
+          color: white;
+          background-color: rgb(85, 117, 180);
+          width: 150px;
+          height: 50px;
+          border-radius: 5px;
+        }
+        .gitLink:hover {
+          background-color: rgb(135, 156, 250);
+        }
+
+        .gitLink:active {
+          background-color: rgb(135, 156, 250);
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+      }
+    }
+  }
+}
