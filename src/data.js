@@ -49,7 +49,7 @@ export const portfolio3 = [
     {
         id: 1,
         title: "Student Profile Database Manager",
-        img: "assets/studentApplicationManagerscm.png",
+        img: "assets/studentApplicationManagerScm.png",
         p: "This program manipulates information of students and filters students depending on certain criteria. This program was written in Scheme (purely functional subset).",
         icon: <img src="https://users.cs.northwestern.edu/~robby/logos/plt-logo-red-shiny.svg" width="30"/>,
         pLink: "https://github.com/samuelhan713/Programming-Abstractions-Assignments/tree/main/StudentApplicationManager"
