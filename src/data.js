@@ -72,7 +72,7 @@ export const portfolio4 = [
         title: "Recursive Search Algorithm",
         img: "assets/findNumdots.png",
         p: "A recursive searching algorithm implemented with MIPS assembly language. Takes in user input to look for in a predetermined array.",
-        icon: <img src="https://mipscorp.com/files/themes/mips/assets/images/favicons/android-icon-192x192.png" width="45"/>,
+        icon: <img src="https://www.motorcycle.com/blog/wp-content/uploads/2020/01/MIPS-LOGO-2018-RGB_feature.jpg" width="45"/>,
         pLink: "https://github.com/samuelhan713/System-Fundamentals-Assignments/blob/main/recursiveSearch.s"
     },
 
@@ -81,7 +81,7 @@ export const portfolio4 = [
         title: "Sum of all Squares",
         img: "assets/sumSq.png",
         p: "This program finds the sum of the squares of all of the descending numbers given a user input. Implemented using MIPS assembly language.",
-        icon: <img src="https://mipscorp.com/files/themes/mips/assets/images/favicons/android-icon-192x192.png" width="45"/>,
+        icon: <img src="https://www.motorcycle.com/blog/wp-content/uploads/2020/01/MIPS-LOGO-2018-RGB_feature.jpg" width="45"/>,
         pLink: "https://github.com/samuelhan713/System-Fundamentals-Assignments/blob/main/recursiveSum.s"
     },
 ];
